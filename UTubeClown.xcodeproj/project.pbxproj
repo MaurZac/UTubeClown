@@ -13,6 +13,8 @@
 		C59C010B286CF7DF0020E7A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59C0109286CF7DF0020E7A6 /* Main.storyboard */; };
 		C59C010D286CF7E10020E7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59C010C286CF7E10020E7A6 /* Assets.xcassets */; };
 		C59C0110286CF7E10020E7A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59C010E286CF7E10020E7A6 /* LaunchScreen.storyboard */; };
+		C59C0119286D67130020E7A6 /* PlaylistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59C0118286D67130020E7A6 /* PlaylistModel.swift */; };
+		C59C011B28717A1B0020E7A6 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59C011A28717A1B0020E7A6 /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C59C010C286CF7E10020E7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C59C010F286CF7E10020E7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C59C0111286CF7E10020E7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59C0118286D67130020E7A6 /* PlaylistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModel.swift; sourceTree = "<group>"; };
+		C59C011A28717A1B0020E7A6 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		C59C0102286CF7DF0020E7A6 /* UTubeClown */ = {
 			isa = PBXGroup;
 			children = (
+				C59C0117286D66F20020E7A6 /* Model */,
 				C59C0103286CF7DF0020E7A6 /* AppDelegate.swift */,
 				C59C0105286CF7DF0020E7A6 /* SceneDelegate.swift */,
 				C59C0107286CF7DF0020E7A6 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				C59C0111286CF7E10020E7A6 /* Info.plist */,
 			);
 			path = UTubeClown;
+			sourceTree = "<group>";
+		};
+		C59C0117286D66F20020E7A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C59C0118286D67130020E7A6 /* PlaylistModel.swift */,
+				C59C011A28717A1B0020E7A6 /* VideoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C59C0108286CF7DF0020E7A6 /* ViewController.swift in Sources */,
+				C59C0119286D67130020E7A6 /* PlaylistModel.swift in Sources */,
 				C59C0104286CF7DF0020E7A6 /* AppDelegate.swift in Sources */,
+				C59C011B28717A1B0020E7A6 /* VideoModel.swift in Sources */,
 				C59C0106286CF7DF0020E7A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
